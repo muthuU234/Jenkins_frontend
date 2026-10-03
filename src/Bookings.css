@@ -1,0 +1,393 @@
+/* body {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.booking-form {
+  width: 380px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  animation: fadeIn 0.6s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 18px;
+  font-weight: 500;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.booking-form input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.5);
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.booking-form button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #4338ca, #5b21b6);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.booking-result {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: #d1fae5;
+  color: #065f46;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+
+
+
+ /* .booking-form, .booking-result {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 24px 32px;
+  background: #f9fbf2;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.booking-form h2 {
+  margin-bottom: 14px;
+  color: #fb8f67;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #1e2019;
+  font-weight: 500;
+  font-size: 1.02em;
+}
+
+.booking-form input[type="text"], .booking-form input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  background: #fbfef9;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+.booking-form input:focus {
+  border-color: #fb8f67;
+  outline: none;
+}
+
+.booking-form button {
+  background: #fb8f67;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(251,143,103,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.booking-form button:hover {
+  background: #f87c4a;
+  box-shadow: 0 6px 18px rgba(251,143,103,0.15);
+}
+
+.booking-result {
+  text-align: center;
+  background: #fbfef9;
+  border-color: #fb8f67;
+}
+
+.booking-result h3 {
+  color: #09a751;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+.booking-result p {
+  color: #252525;
+  font-size: 1em;
+  margin-bottom: 16px;
+} */
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://images.unsplash.com/photo-1581091870622-1e7b9c5c9e3d') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.booking-form, .booking-result {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  color: #fff;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.booking-form h2,
+.booking-result h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.booking-result p {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+} */
+
+
+/* Container covering full viewport with background image and center alignment */
+
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1581091870622-1e7b9c5c9e3d");
+  background-size: cover;
+  background-position: center;
+  height: 73vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding: 13px; */
+  box-sizing: border-box;
+    /* margin: 7%; */
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+/* Common style for form and result box with glassmorphism effect */
+.form-box, .result-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  color: #543737;
+  animation: fadeIn 0.6s ease-in-out;
+  box-sizing: border-box;
+}
+
+/* Heading style */
+.heading {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #280672a4;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* Label style for form inputs */
+.label {
+  display: block;
+  color: #000000ad;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form input fields common style */
+.input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+  font-family: cursive;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #215969;
+}
+
+/* Submit button with gradient and hover effects */
+.button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease;
+  font-size: 1.1rem;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #1f3b5e, #00c6ff);
+  transform: scale(1.05);
+}
+
+/* Result confirmation text styling */
+.result-text {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 1rem;
+  white-space: pre-line;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive: Adjust form width on smaller screens */
+@media (max-width: 400px) {
+  .form-box, .result-box {
+    width: 90%;
+    padding: 24px 20px;
+  }
+}

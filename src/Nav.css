@@ -1,0 +1,41 @@
+.nav-bar {
+  background-color: #1e1e2f;
+  padding: 1rem 2rem;
+  box-shadow: 15px 1px 18px 18px rgba(0, 0, 0, 0.283);
+  border-radius: 3px 4px 3px 4px;
+  margin: 0;
+  position: sticky;
+}
+
+#logout{
+    margin-left: 50%;
+}
+.nav-items {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items div {
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-items div:hover {
+  background-color: #3e3e5e;
+  transform: scale(1.05);
+}
+.nav-items #logout:hover{
+    background-color: rgb(121, 12, 12);
+}
+#size{
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  
+}
