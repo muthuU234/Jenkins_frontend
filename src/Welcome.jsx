@@ -5,7 +5,7 @@ const Welcome=()=>{
 
         <div id="content">
             <center>
-                <h2>You decide We  Will Deliver... Msg By Muthu 📦</h2>
+                <h2>You decide We  Will Deliver... Msg  📦</h2>
                
             </center>
 
